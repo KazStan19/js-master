@@ -83,10 +83,12 @@ let knygos={
 
         for(let j in knygos[i]){
 
-            console.log(knygos[i][j].filter());
+            for(let k in knygos[i][j]){
+                
+                if(knygos[i][j].year===2018)console.log(knygos[i][j][k]);
+
+            }
 
         }
 
     }
-
-
